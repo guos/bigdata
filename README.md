@@ -13,7 +13,7 @@ spark-submit \
  hdfs://master:9000/data/carbondata
 
 for config
-
+`
  ./hdp-configuration-utils.py -c 8 -m 32 -d 4 -k False
  Using cores=8 memory=32GB disks=4 hbase=False
  Profile: cores=8 memory=31744MB reserved=1GB usableMem=31GB disks=4
@@ -40,3 +40,4 @@ for config
  hive.tez.container.size=3584
  hive.tez.java.opts=-Xmx2560m
  hive.auto.convert.join.noconditionaltask.size=805306000
+`
